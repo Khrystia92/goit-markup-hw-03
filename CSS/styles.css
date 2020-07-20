@@ -292,28 +292,33 @@ border-radius: 4px;
 .client-icon:focus {
     border-color: var(--aksent-color);
 }
-
-
 .footer {
-    background: #2F303A;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    background: #2F303A;   
 }
 .footer .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-   
-}
+    }
 .footer-logo {
     margin-right: 69px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-.address {
+.logotype {
+margin-bottom: 20px;
+font-family: var(--secondary-font)
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+.logotype,.address {
 color:var(--title-dark-theme-color);
 }
 .footer-mailto, .footer-tel, .address{
 text-decoration: none;
-    font-weight: normal;
+font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -334,9 +339,13 @@ margin-bottom: 9px;
 }
 .footer-subscribe {
 margin-right: 94px;
-   }
-.footer-subtitle {
 padding-top: 72px;
+   }
+ .footer-subtitle-subtitle {
+ padding-top: 72px;
+    
+ }  
+.footer-subtitle {
 margin-bottom: 20px;
 color: var(--title-dark-theme-color);
 }
